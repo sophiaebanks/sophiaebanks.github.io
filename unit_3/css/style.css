@@ -1,0 +1,20 @@
+body {
+	 text-align: center;
+	 background: url("images/cover_portrait.jpg");
+	 background-size: cover;
+}
+#menu {
+	text-align: right;
+}
+#title, #slogan {
+	text-align: left;
+}
+#slogan {
+	font-style: italic;
+}
+img {
+	background: url("images/cover_portrait.jpg")
+}
+#contact {
+	background-color: red;
+}
