@@ -12,9 +12,17 @@ body {
 #slogan {
 	font-style: italic;
 }
+.title {
+	text-align: right;
+}
 img {
-	background: url("images/cover_portrait.jpg")
+	display: block;
+	margin-left: inherit;
+	margin-right: auto;
+	width: 80%
 }
 #contact {
 	background-color: red;
+	color: white;
+	font-weight: bold;
 }
