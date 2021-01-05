@@ -1,0 +1,90 @@
+@import url(https://fonts.googleapis.com/css2?family=Courgette);
+@import url(https://fonts.googleapis.com/css2?family=Roboto+Condensed);
+
+h2 {
+	font-family: 'Courgette', cursive;
+}
+
+p {
+    font-family: 'Roboto Condensed', sans-serif;
+}
+article {
+	background-color: #E89C6C;
+	text-align: right;
+	border-bottom: 2px solid black;
+	padding-bottom: 2em;
+}
+header {
+    background-color: #FFED74;
+    padding: 20px;
+}
+nav {
+	background-color: #E8C66A;
+	border-bottom: 2px solid black;
+	text-align: right;
+}
+aside {
+    background-color: #FFC675;
+    border: 1px black solid;
+    padding: 20px;
+}
+section {
+    background-color: #FFE2B8;
+    border: 1px black solid;
+    padding: 20px;
+}
+footer {
+    background-color: #FF957E;
+    border: 1px black solid;
+    padding: 20px;
+}
+#slogan, span {
+	text-align: right;
+	font-family: 'Roboto Condensed', sans-serif;
+	font-style: italic;
+}
+.heading {
+	text-align: right;
+	font-family: 'Courgette', cursive;
+}
+
+.description {
+    text-align: right;
+}
+#logo {
+	display: inline;
+	margin-left: inherit;
+	margin-right: auto;
+	width: 30%;
+}
+#about {
+	text-align: center;
+	font-family: 'Courgette', cursive;
+}
+#article{
+	text-align: center;
+    font-family: 'Roboto Condensed', sans-serif;
+    font-size: 2em;
+    border-bottom: 2px solid black;
+    padding-bottom: 1.5em;
+}
+#blog {
+	display: block;
+	margin-right: inherit;
+	padding-top: 2em;
+	padding-bottom: 2em;
+	width: 100%
+}
+
+#contact {
+	background-color: red;
+	color: white;
+	font-weight: bold;
+	text-align: center;
+	font-size: 1.5em;
+	padding-bottom: 1em;
+}
+.section {
+	font-weight: bold;
+	font-size: 1.5em;
+}
