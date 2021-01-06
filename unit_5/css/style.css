@@ -1,6 +1,8 @@
 @import url(https://fonts.googleapis.com/css2?family=Courgette);
 @import url(https://fonts.googleapis.com/css2?family=Roboto+Condensed);
 
+* { margin:0; padding:0; box-sizing:border-box; }
+
 h2 {
 	font-family: 'Courgette', cursive;
 }
@@ -38,10 +40,14 @@ footer {
     border: 1px black solid;
     padding: 20px;
 }
-#slogan, span {
+.subheading {
+	float: right;
+}
+#slogan {
 	text-align: right;
 	font-family: 'Roboto Condensed', sans-serif;
 	font-style: italic;
+	font-size: 3em;
 }
 .heading {
 	text-align: right;
@@ -61,11 +67,10 @@ footer {
 	text-align: center;
 	font-family: 'Courgette', cursive;
 }
-#article{
+.article{
 	text-align: center;
     font-family: 'Roboto Condensed', sans-serif;
     font-size: 2em;
-    border-bottom: 2px solid black;
     padding-bottom: 1.5em;
 }
 #blog {
@@ -87,4 +92,5 @@ footer {
 .section {
 	font-weight: bold;
 	font-size: 1.5em;
+	font-style: italic;
 }
