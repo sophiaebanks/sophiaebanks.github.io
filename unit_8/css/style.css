@@ -183,20 +183,6 @@ span {
 	width: 100%;
 }
 
-@media only screen and (max-width: 768px) and (min-width: 360px) {
-	#introblog {
-		display: inline-block;
-		width: 1%;
-	}
-	#logo {
-		display: block;
-		width: 100%;
-	}
-	.menu, nav {
-		display: none;
-	}
-}
-
 @media only screen and (max-width: 360px) {
 	#logo {
 		width: 100%;
@@ -236,5 +222,9 @@ span {
 	.section {
 		text-align: left;
 	}
+}
+
+@media only screen and (min-width: 360px) and (max-width: 768px) {
+
 }
 
