@@ -1,0 +1,168 @@
+@import url(https://fonts.googleapis.com/css2?family=Courgette);
+@import url(https://fonts.googleapis.com/css2?family=Roboto+Condensed);
+
+* { margin:0; padding:0; box-sizing: border-box;}
+
+h2 {
+	font-family: 'Courgette', cursive;
+}
+
+p {
+    font-family: 'Roboto Condensed', sans-serif;
+    padding: 1em;
+    font-size: 1.2em;
+    overflow: hidden;
+    width: 85%;
+    float: left;
+}
+
+header {
+    background-color: #FFF;
+    padding: 0;
+    margin-bottom: 0 auto;
+}
+
+nav {
+	background-color: #FFF;
+	text-align: right;
+	font-size: 1.5em;
+}
+a {
+	text-decoration: none;
+}
+a:hover {
+	background-color: gray;
+}
+
+article {
+	background-color: #FFC675;
+	float: left;
+}
+
+aside {
+    background-color: #FFC675;
+    border: 1px black solid;
+    padding: 20px;
+    margin-top:2em;
+    text-align: right;
+    float: right;
+}
+
+footer {
+    background-color: #FF957E;
+    border: 1px black solid;
+    padding: 20px;
+    text-align: center;
+    font-size: 1.5em;
+}
+
+footer > div {
+	display: block;
+	align-items: center;
+}
+
+.heading {
+	text-align: center;
+	font-family: 'Courgette', cursive;
+	font-size: 2em;
+}
+
+#logo {
+	display: inline;
+	margin-left: inherit;
+	margin-right: auto;
+	width: 50%;
+	padding-bottom: 15px;
+}
+
+#introblog {
+	border: 7px black solid;
+	width: 80%;
+	margin-right: 7em;
+	margin-left: 7em;
+}
+
+.caption {
+	font-size: .9em;
+	text-align: center;
+}
+
+.quote {
+	font-size: 2em;
+	text-align: center;
+}
+.menu {
+	padding-top: 2em;
+	float: right;
+}
+
+#footer_nav {
+	font-size: 1em;
+	background-color: #FF957E;
+	text-align: center;
+}
+
+@media only screen and (max-width: 730px) {
+	#introblog {
+	border: 7px black solid;
+	width: 75%;
+	margin-right: 4em;
+	margin-left: 4em;
+	}
+
+	p {
+		text-align: center;
+		float: none;
+	}
+
+	nav {
+		width: 100%;
+		text-align: center;
+		font-size: 2em;
+		padding-left: 3.14em;
+		padding-right: 2em;
+	}
+
+	.menu {
+		float: none;
+		text-align: center;
+		padding: auto;
+	}
+
+	.quote {
+		font-size: 1.5em;
+		margin: auto;
+	}
+
+	aside {
+		margin-left: 2em;
+		margin-right: 2em;
+		text-align: center;
+		float: none;
+	}
+
+@media only screen and (max-width: 360px) {
+	#logo {
+		width: 100%;
+		float: none;
+	}
+	#introblog {
+	border: 7px black solid;
+	width: 60%;
+	margin-right: 2em;
+	margin-left: 2em;
+	}
+	nav {
+		text-align: center;
+		font-size: 1.5em;
+	}
+
+	article, .heading {
+		text-align: center;
+	}
+
+	.heading {
+		font-size: 1.5em;
+	}
+
+
